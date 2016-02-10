@@ -53,13 +53,13 @@ $special = $event.special.debouncedresize = {
 // contributors: Oren Solomianik, David DeSandro, Yiannis Chatzikonstantinou
 
 // blank image data-uri bypasses webkit log warning (thx doug jones)
-var BLANK = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
+var BLANK = 'data:assets/images/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
 
 $.fn.imagesLoaded = function( callback ) {
 	var $this = this,
 		deferred = $.isFunction($.Deferred) ? $.Deferred() : 0,
 		hasNotify = $.isFunction(deferred.notify),
-		$images = $this.find('img').add( $this.filter('img') ),
+		$images = $this.find('assets/images').add( $this.filter('assets/images') ),
 		loaded = [],
 		proper = [],
 		broken = [];
@@ -400,7 +400,7 @@ var ExpandPreview = (function() {
 			// for smaller screens we don´t display the large image (the media query will hide the fullimage wrapper)
 			if( self.$fullimage.is( ':visible' ) ) {
 				this.$loading.show();
-				$( '<img/>' ).load( function() {
+				$( '<assets/images>' ).load( function() {
 					var $img = $( this );
 					if( $img.attr( 'src' ) === self.$item.children('a').data( 'largesrc' ) ) {
 						self.$loading.hide();

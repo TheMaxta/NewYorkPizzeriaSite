@@ -146,7 +146,7 @@ img {max-width: 100%;}
 }
 /*---------------------------------------------------- 	Intro------------------------------------------------------*/
 header {
-	padding-bottom:25px;
+	padding-bottom:10px;
 }
 .intro {
 	font-family:'Playball',cursive;
@@ -165,7 +165,7 @@ header {
 	overflow:hidden;
 }
 .parallax-pattern-overlay {
-	background-image:url(../img/pattern.png);
+	background-image:url(../assets/pattern.png);
 	background-repeat: repeat;
 }
 /*---------------------------------------------------- 	Heading------------------------------------------------------*/
@@ -192,8 +192,9 @@ header {
 	line-height:1.7;
 }
 img#site-title {
-	max-width: 210px;
-	background-color: rgba(255, 255, 255, 0.25);
+	padding: 25px;
+    max-width: 230px;
+	background-color: rgba(255, 255, 255, 0.42);
 }
 /*---------------------------------------------------- 	Team------------------------------------------------------*/
 .papers,.papers:before,.papers:after {
@@ -687,7 +688,27 @@ blockquote cite:before {
 .phone-text {
     text-align: center;
     line-height: 2.2;
-    color: #0707D4;
+    color: #464652;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
+}
+
+.phone-button {
+
+    padding: 10px;
+    border: 3px black solid;
+}
+
+.header-text {
+	text-align: center;
+
+}
+.button {
+	background: #FDCBC3;
+    padding: 16px;
+    border: 2px solid #848282;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
 }
