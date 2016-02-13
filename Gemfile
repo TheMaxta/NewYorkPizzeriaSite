@@ -6,9 +6,8 @@ gem 'rails', '4.2.5'
 group :production do
 	gem 'pg'
 end
-group :production do
-  gem 'rails_12factor'
-end
+gem 'rails_12factor', group: :production
+
 
 group :development do
 	gem 'sqlite3'
