@@ -81,7 +81,4 @@ Rails.application.configure do
   config.assets.compile = true
 
 
-}
-  # ADDED FOR DEVISE/mailer
-  config.action_mailer.default_url_options = { :host => 'nypizzeria.herokuapp.com' }
 end
