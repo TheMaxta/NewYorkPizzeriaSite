@@ -53,6 +53,9 @@ group :development do
   gem 'spring'
   
   gem 'quiet_assets', group: :development
+  group :development do
+  	gem "capistrano", "~> 3.4"
+  end
 
 end
 
