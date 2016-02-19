@@ -695,6 +695,8 @@ blockquote cite:before {
     color: #464652;
     font-weight: 700;
     font-size: 35px;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
 }
 
 .phone-button {
@@ -719,8 +721,8 @@ blockquote cite:before {
 
 .map_container {
 	text-align: center;
+	pointer-events: none;
 }
-
 
 .image-size {
 	height: 80%;
