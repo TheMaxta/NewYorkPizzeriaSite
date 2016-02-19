@@ -720,3 +720,9 @@ blockquote cite:before {
 .map_container {
 	text-align: center;
 }
+
+
+.image-size {
+	height: 80%;
+	width: 80%;
+}
