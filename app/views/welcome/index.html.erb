@@ -78,7 +78,14 @@
 
 
 	<!--about us-->
-	<h3 class="header-text"><a href="https://www.ehungry.com/" class="btn btn-success btn-lg">CLICK HERE TO ORDER ONLINE!</a></h3>		
+	<h3 class="header-text"><a href="https://www.ehungry.com/" class="btn btn-success btn-lg">Click Here To Order Online</a></h3>		
+
+	<h3 class="header-text">
+		<%= link_to pages_menu_path, :target => "_blank", class: "btn btn-danger btn-lg" do %>
+			    <i>See Our Menu</i>
+		<% end %>
+	</h3>
+
 
 	<section class="aboutus" id="aboutus">
 	<div class="container">
@@ -128,11 +135,17 @@
 			<h2>Our Specialties</h2>
 			<img class="dividerline" src="assets/sep.png" alt="">
 			<h3>
-			Here are some of our favorite specialty dishes and pizzas. To see our full menu, click here:&nbsp;&nbsp;&nbsp; 						<%= link_to pages_menu_path, :target => "_blank", class: "btn btn-danger btn-md" do %>
+			<p>
+			These are just a selection of our favorite specialty dishes and pizzas.
+			</p>
+			<p>
+			To see our full menu click here:&nbsp;&nbsp;&nbsp;
+
+ 						<%= link_to pages_menu_path, :target => "_blank", class: "btn btn-danger btn-md" do %>
 						    <i>Full Menu</i>
-						<% end %><br>
-			Full Menu will include pricing for all dishes.<br>
-			We strongly recomend you give one of these great choices a shot next time you order!
+						<% end %></p>
+
+			<p>We strongly recomend you give one of these dishes a shot next time you order!</p>
 			</h3>
 
 		</div>

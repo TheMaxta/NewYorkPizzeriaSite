@@ -708,6 +708,7 @@ blockquote cite:before {
 .header-text {
 	text-align: center;
 	font-weight: 500;
+	padding-bottom: 25px;
 }
 .button {
 	background: #BEF1AD;
