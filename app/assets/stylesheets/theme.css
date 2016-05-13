@@ -696,7 +696,6 @@ blockquote cite:before {
     color: #464652;
     font-weight: 700;
     font-size: 35px;
-    margin-top: 300px;
     margin-bottom: 50px;
 }
 
@@ -724,9 +723,21 @@ blockquote cite:before {
 .map_container {
 	text-align: center;
 	pointer-events: none;
+
 }
+
 
 .image-size {
 	height: 80%;
 	width: 80%;
+}
+
+
+.important {
+	margin-top: 300px;
+    background: #D4D3D3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
 }
