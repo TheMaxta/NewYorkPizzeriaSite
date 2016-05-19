@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+
+<meta charset="UTF-8"/>
+
+<title>Ny Pizzeria Denver</title>
+
+<meta name="description" content="Onepage Multipurpose Bootstrap HTML Site">
+
+<meta name="author" content="Max Mahlke">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="assets/bootstrap.css">
+<link rel="stylesheet" href="assets/font-awesome.css">
+<link rel="stylesheet" href="assets/animate.css">
+<link rel="stylesheet" href="assets/theme.css">
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,900,300" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+<!--wrapper start-->
+<div class="wrapper" id="wrapper">
+	
+	<!--header-->
+	<header>
+	<div class="banner row" id="banner">		
+		<div class="parallax text-center" style="background-image: url(assets/banner.jpg);">
+			<div class="parallax-pattern-overlay">
+				<div class="container text-center" style="padding-top:70px;">
+					
+					<h2 class="intro wow zoomIn" wow-data-delay="0.4s" wow-data-duration="0.9s">Denver's Best<br>New York Style Pizzeria!</h2>
+					<br>
+					<br>
+					<a href="#aboutus"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="assets/NYLogo.png" alt="logo"/></a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="menu">
+		<div class="navbar-wrapper">
+			<div class="container">
+				<div class="navwrapper">
+					<div class="navbar navbar-inverse navbar-static-top">
+						<div class="container">
+							<div class="navArea">
+								<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav">
+										<li class="menuItem active"><a href="#wrapper">Home</a></li>
+										<li class="menuItem"><a href="#aboutus">About Us</a></li>
+										<li class="menuItem"><a href="#specialties">Menu</a></li>
+										<li class="menuItem"><a href="#gallery">Order Online</a></li>
+										<li class="menuItem"><a href="#feedback">Reviews</a></li>
+
+										<li class="menuItem"><a href="#contact">Email Club</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	</header>
+
+	<section class="scroll">Scroll Down For More Info!</section>
+
+	<section class="important">
+		<h3 class="address">600 S. Holly St.</h3>
+		<h3 class="phone-text"><span class="phone-button">(303)-316-7353</span></h3>
+
+
+		<!--about us-->
+		<h3 class="header-text"><a href="https://www.ehungry.com/" class="btn btn-success btn-lg">Click Here To Order Online</a></h3>		
+
+		<h3 class="header-text">
+			<%= link_to pages_menu_path, :target => "_blank", class: "btn btn-danger btn-lg" do %>
+				    <i>See Our Menu</i>
+			<% end %>
+		</h3>
+	</section>
+
+
+	<section class="aboutus" id="aboutus">
+	<div class="container">
+		<div class="heading text-center">
+			<img class="dividerline" src="assets/sep.png" alt="">
+			<h2>About Us</h2>
+			<img class="dividerline" src="assets/sep.png" alt="">
+			<br>
+			<h3>	We specialize in baking a traditional New York style pizza, with a thin (but not a cracker) crust - a slice of our pizza is meant to be folded in half lengthwise and eaten New York style. Add our slightly sweet and spicy pizza sauce, our own spacial blend of top quality Mozarella and Provolone Cheese, and your choice of fresh toppings, and you have a combination that will have you falling in love with pizza all over again. <br><br> Why should you eat here instead of a cheap franchise pizzeria? Well for starters we have all freshly cut, and homemade ingredients for almost all of our meals. We prepare our own dough, sauce, and cheese every day of the week. All of our crusts are hand tossed when you place your order, and each pizza is baked in an old fashioned, stone deck oven. We strongly feel that this traditional way of making pizza allows us to cook your pizza just the way you want it. Ask us to make you a crispy pie. Or You could ask us to make you a soft pizza. Want the crust crispy, but the toppings juicy, and a little soggy? Our cooks got you.</h3>
+			<br>
+			<br>
+		</div>			
+		 <div class="row">
+			<div class="col-md-6">
+				<div class="papers text-center">
+					<img src="https://wowthemes.net/demo/leroy/img/dummies/18.jpg" alt=""><br/>
+					<h4 class="notopmarg nobotmarg">Stone Deck Ovens</h4>
+					<p>
+						This is probably where we take the most pride in our pizzeria. The Old Fashioned Stone Deck Ovens are a beauty to behold,
+						and its one of the huge things that seperates us from any other pizzeria. Most places ditched these ovens, when they realized 
+						they could make more pizzas faster, with conveyor ovens. We always believe in quality over quantity, and most people MUCH prefer the taste and variety of a Stone Deck Oven.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="papers text-center">
+					<img src="https://wowthemes.net/demo/leroy/img/dummies/19.jpg" alt=""><br/>
+					<h4 class="notopmarg nobotmarg">Hand Stretched Dough</h4>
+					<p>
+						When you come in, you will immediately be able to see the process involved in making your food! 
+						We hand-prepare everything right up front, for all the world to see. This way you get to see
+						all the hard-work, and love our  employees put into every meal they make.
+						You may even get to see the all coveted dough toss! Doughtoss not guatanteed: Getting flour in your eyes is not always fun!
+
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	
+	<!--specialties-->
+	<section class="specialties" id="specialties">
+	<div class="container">
+		<div class="heading text-center">
+			<img class="dividerline" src="assets/sep.png" alt="">
+			<h2>Our Specialties</h2>
+			<img class="dividerline" src="assets/sep.png" alt="">
+			<h3>
+			<p>
+			These are just a selection of our favorite specialty dishes and pizzas.
+			</p>
+			<p>
+			To see our full menu click here:&nbsp;&nbsp;&nbsp;
+
+ 						<%= link_to pages_menu_path, :target => "_blank", class: "btn btn-danger btn-md" do %>
+						    <i>Full Menu</i>
+						<% end %></p>
+
+			<p>We strongly recomend you give one of these dishes a shot next time you order!</p>
+			</h3>
+
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="restmenuwrap">
+					<h3 class="maincat notopmarg text-center">APPETIZERS</h3>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>Hot Wings</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>Garlic Knots</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>Cheese Bread</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="restmenuwrap">
+					<h3 class="maincat notopmarg text-center">PIZZA</h3>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>Super Combo</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>The Bronx</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>BBQ Chicken</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>Long Island</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="restmenuwrap">
+					<h3 class="maincat notopmarg text-center">DESSERTS</h3>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>Canolli</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>Dessert Breadsticks</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+					<div class="restitem clearfix">
+						<div class="rm-thumb" style="background-image: url(assets/food/sample.gif)">
+						</div>
+						<h5>Dessert Knots</h5>
+						<p>
+							Pepperoni, mozzarella cheese and Italian seasonings are rolled together, baked to delicious perfection, then cut into bite-sized delights. Your guests will beg for the recipe!"
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	
+	<!--gallery-->
+	<section class="gallery" id="gallery">
+		<div class="container">
+			<div class="heading text-center">
+				<img class="dividerline" src="assets/sep.png" alt="">
+				<h2>Order Online</h2>
+				<img class="dividerline" src="assets/sep.png" alt="">
+			</div>
+				<h5 class="body-text">If you experience any problems with online ordering you may have to call: (303)-316-7353</h5><br>
+				<h3 class="body-text">We suggest you order through:&nbsp;&nbsp;<a class="btn btn-danger btn-lg
+" href="https://www.ehungry.com/">EHungry.com</a></h3><br>
+				<p>
+				<h5 class="body-text">Here you can order for delivery, takeout, or even make a future order.<br>
+				For any large, or catering orders, we ask that you call us ahead of time. We have seperate/cheaper pricing for all large/catering orders!
+
+				</h5>
+				</p>
+				<br>
+				<br>
+			</div>
+				<div class="heading text-center">
+			<img class="dividerline" src="assets/sep.png" alt="">
+			<h2>Location</h2>
+			<img class="dividerline" src="assets/sep.png" alt="">
+			<p>We are located in the shopping center on leetsdale and holly.</p>
+			<p>Adress: 600 South Holly St.</p>
+			<p>LOOK FOR:  I <3 NY PIZZA SIGN!!</p>
+			<br>
+			
+			</section>
+			<!--
+				google map info
+						-->
+				<div class="map_container">
+
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3069.490135622409!2d-104.9236656!3d39.7061664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x4ef6821f369a78c3!2sNew+York+Pizzeria!5e0!3m2!1sen!2sus!4v1455917721821" width="750" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+	<!--feedback-->
+	<section class="feedback" id="feedback">
+	<div class="container w960">
+		<div class="heading">
+			<img class="dividerline" src="assets/sep.png" alt="">
+			<h2>Customers Say</h2>
+			<img class="dividerline" src="assets/sep.png" alt="">
+			<h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.<br>
+			 Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed tincidunt tristique enim sed sollcitudin.</h3>
+		</div>
+		<div class="row">
+		<blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages." <cite>Jogn De, Birthday Event<br/></blockquote>
+		<blockquote>We specialize in baking a traditional New York style pizza, with a thin (but not a cracker) crust - a slice of our pizza is meant to be folded in half lengthwise and eaten much lika a taco. Add our slightly sweet and spicy pizza sauce, our own spacial blend of top quality Mozarella and Provolone Cheese, and your choice of savory toppings, and you have a combination that will have you falling in love with pizza all over again. <br> At New York Pizza, we constantly strive to combine what you'd find inn a major franchis with the quality of product that is found in a mom and pop pizzeria. We prepare our own dough, sauce, and cheese every day of the week. All of our crusts are hand tossed when you place your order, and each pizza is baked in an onld fashioned, stone deck oven. We strongly feel that this traditional way of making pizza allows us to cook your pizza just the way you want it. Ask us to make you a crispy pie. Or You could ask us to make you a soft pizza. Want the crust crispy, but the toppings juicy, and a little soggy? We got you.<cite>Marta Kay, Business Cocktalil<br/></blockquote>
+		</div>
+	</div>
+	</section>
+	
+	<!--feedback-->
+	<section class="contact" id="contact">
+	<div class="container">
+		<div class="heading">
+				<img class="dividerline" src="assets/sep.png" alt="">
+				<h2>Join Our Email Club!</h2>
+				<img class="dividerline" src="assets/sep.png" alt="">
+				<h3>We have tons of monthly sales, random events, and deals for all email club members! Get in on these savings!<br>
+				You can sign up below.<br>
+				I promise we won't spam your inbox to oblivion. We hate when people do that.</h3>
+		</div>
+	</div>
+	 <div class="container w960">
+      <div class="row">
+		<div class="done">
+			<div class="alert alert-success">
+				<button type="button" class="close" data-dismiss="alert">×</button>
+				Your message has been sent. Thank you!
+			</div>
+		</div>
+       <form method="post" action="mailers/contact.php" id="contactform">
+          <input name="name" type="text" class="contact col-md-6" placeholder="Your Name *" >
+          <input name="email" type="email" class="contact noMarr col-md-6" placeholder="E-mail address *" >
+          <textarea name="comment" class="contact col-md-12" placeholder="Message *"></textarea>
+          <input type="submit" id="submit" class="contact submit" value="Send message">
+        </form>
+      </div>
+    </div>
+	</section>
+  
+	<!--footer-->
+	<section class="footer" id="footer">
+	<p class="text-center">
+		<a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+	</p>
+	<div class="container">
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+			<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+		</ul>
+		<p>
+			&copy; 2015 Copyright Your Website<br>
+			 Theme by <a href="https://www.wowthemes.net">WowThemes.Net</a>
+		</p>
+	</div>
+	</section>
+	
+</div><!--wrapper end-->
+
+
+<!-- Google API -->
+
+
+<!--Javascripts-->
+<script src="assets/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/Modernizr.js"></script>
+<script src="assets/bootstrap.js"></script>
+<script src="assets/menustick.js"></script>
+<script src="assets/parallax.js"></script>
+<script src="assets/easing.js"></script>
+<script src="assets/wow.js"></script>
+<script src="assets/smoothscroll.js"></script>
+<script src="assets/masonry.js"></script>
+<script src="assets/imgloaded.js"></script>
+<script src="assets/classie.js"></script>
+<script src="assets/colorfinder.js"></script>
+<script src="assets/common.js"></script>
+
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+	$('.navbar-wrapper').stickUp({
+		parts: {
+		  0: 'banner',
+		  1: 'aboutus',
+		  2: 'specialties',
+		  3: 'gallery',
+		  4: 'feedback',
+		  5: 'contact'
+		},
+		itemClass: 'menuItem',
+		itemHover: 'active',
+		topMargin: 'auto'
+		});
+	});
+});
+</script>
+</body>
+</html>

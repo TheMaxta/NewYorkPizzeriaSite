@@ -24,9 +24,10 @@
 <link rel="stylesheet" href="assets/animate.css">
 <link rel="stylesheet" href="assets/theme.css">
 
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,900,300" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
@@ -35,47 +36,85 @@
 	
 	<!--header-->
 	<header>
-	<div class="banner row" id="banner">		
-		<div class="parallax text-center" style="background-image: url(assets/banner.jpg);">
-			<div class="parallax-pattern-overlay">
-				<div class="container text-center" style="height:580px;padding-top:70px;">
-					
-					<h2 class="intro wow zoomIn" wow-data-delay="0.4s" wow-data-duration="0.9s">Denver's Best<br>New York Style Pizzeria!</h2>
-					<br>
-					<br>
-					<a href="#aboutus"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="assets/NYLogo.png" alt="logo"/></a>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<div class="menu">
-		<div class="navbar-wrapper">
-			<div class="container">
-				<div class="navwrapper">
-					<div class="navbar navbar-inverse navbar-static-top">
-						<div class="container">
-							<div class="navArea">
-								<div class="navbar-collapse collapse">
-									<ul class="nav navbar-nav">
-										<li class="menuItem active"><a href="#wrapper">Home</a></li>
-										<li class="menuItem"><a href="#aboutus">About Us</a></li>
-										<li class="menuItem"><a href="#specialties">Menu</a></li>
-										<li class="menuItem"><a href="#gallery">Order Online</a></li>
-										<li class="menuItem"><a href="#feedback">Reviews</a></li>
+	<div class="row">
 
-										<li class="menuItem"><a href="#contact">Email Club</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
+		<div class="parallax text-center" style="background-image: url(assets/banner.jpg);">
+
+			<div class="parallax-pattern-overlay">
+
+				<div class="container text-center" id="header-container">
+					
+					<h2 class="intro wow zoomIn" wow-data-delay="0.4s" wow-data-duration="0.9s">
+
+					<span id="denver">Denver's Best</span>
+					<div class="spacing"></div>
+					<p><span id="new">New York</span> Style <span style='color:yellow;'>Pizzeria!</p>
+					<div class="spacing"></div>
+
+					<button id="line" class="btn btn-default btn-large">Order Now!</button>
+
 				</div>
 			</div>
 		</div>
 	</div>	
+	
+
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+		        </button>
+		        <a href="navbar-brand">
+		        	<img  style="height:65px;" src="assets/NYLogo.png">
+		        </a>
+
+
+
+			</div>
+			<div class="navbar-collapse collapse in" id="bs-example-navbar-collapse1" aria-expanded="true">
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="#wrapper">Home</a></li>
+					</li>
+					<li class="page-scroll">
+						<a href="#aboutus">About Us</a>
+					</li>
+					<li class="page-scroll">
+						<a href="#specialties">Menu</a></li>
+					</li>
+					<li class="page-scroll">
+						<a href="#gallery">Order Online</a></li>
+					<li class="page-scroll">
+						<a href="#feedback">Reviews</a></li>
+					</li>
+					<li class="page-scroll">
+						<a href="#contact">Email Club</a>
+					</li>
+
+				</ul>
+
+
+
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+
 	</header>
 
 	<section class="important">
+		<h3 class="adress">600 S. Holly St.</h3>
 		<h3 class="phone-text"><span class="phone-button">(303)-316-7353</span></h3>
 
 
@@ -97,11 +136,169 @@
 			<h2>About Us</h2>
 			<img class="dividerline" src="assets/sep.png" alt="">
 			<br>
-			<br>
 			<h3>	We specialize in baking a traditional New York style pizza, with a thin (but not a cracker) crust - a slice of our pizza is meant to be folded in half lengthwise and eaten New York style. Add our slightly sweet and spicy pizza sauce, our own spacial blend of top quality Mozarella and Provolone Cheese, and your choice of fresh toppings, and you have a combination that will have you falling in love with pizza all over again. <br><br> Why should you eat here instead of a cheap franchise pizzeria? Well for starters we have all freshly cut, and homemade ingredients for almost all of our meals. We prepare our own dough, sauce, and cheese every day of the week. All of our crusts are hand tossed when you place your order, and each pizza is baked in an old fashioned, stone deck oven. We strongly feel that this traditional way of making pizza allows us to cook your pizza just the way you want it. Ask us to make you a crispy pie. Or You could ask us to make you a soft pizza. Want the crust crispy, but the toppings juicy, and a little soggy? Our cooks got you.</h3>
 			<br>
 			<br>
-		</div>			
+		</div>	
+		<br>		
+
+		
+
+	<div class="main container">
+
+
+		<script>
+
+        jQuery(document).ready(function ($) {
+            
+            var jssor_1_SlideoTransitions = [
+              [{b:5500,d:3000,o:-1,r:240,e:{r:2}}],
+              [{b:-1,d:1,o:-1,c:{x:51.0,t:-51.0}},{b:0,d:1000,o:1,c:{x:-51.0,t:51.0},e:{o:7,c:{x:7,t:7}}}],
+              [{b:-1,d:1,o:-1,sX:9,sY:9},{b:1000,d:1000,o:1,sX:-9,sY:-9,e:{sX:2,sY:2}}],
+              [{b:-1,d:1,o:-1,r:-180,sX:9,sY:9},{b:2000,d:1000,o:1,r:180,sX:-9,sY:-9,e:{r:2,sX:2,sY:2}}],
+              [{b:-1,d:1,o:-1},{b:3000,d:2000,y:180,o:1,e:{y:16}}],
+              [{b:-1,d:1,o:-1,r:-150},{b:7500,d:1600,o:1,r:150,e:{r:3}}],
+              [{b:10000,d:2000,x:-379,e:{x:7}}],
+              [{b:10000,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:9100,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:10000,d:1600,x:-200,o:-1,e:{x:16}}]
+            ];
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+
+    <style>
+        
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('assets/img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('assets/img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+    </style>
+
+
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('assets/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <div data-p="225.00" style="display: none;">
+                <img data-u="image" src="assets/img/red.jpg" />
+                <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">TOUCH SWIPE SLIDER</div>
+                <div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>
+                <div data-u="caption" data-t="0" style="position: absolute; top: 100px; left: 600px; width: 445px; height: 300px;">
+                   
+                   
+                </div>
+            </div>
+            <div data-p="225.00" style="display: none;">
+                <img data-u="image" src="assets/img/purple.jpg" />
+            </div>
+            <div data-p="225.00" style="display: none;">
+                <img data-u="image" src="assets/img/blue.jpg" />
+            </div>
+            <a data-u="ad" href="http://www.jssor.com" style="display:none">jQuery Slider</a>
+        
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+    </div>
+
+
+
+    	<br>
+    	<br>
+		<br>		
+		<br>		
+		<br>		
 		 <div class="row">
 			<div class="col-md-6">
 				<div class="papers text-center">
@@ -254,42 +451,49 @@
 	</section>
 	
 	<!--gallery-->
-	<section class="gallery" id="gallery">
-		<div class="container">
-			<div class="heading text-center">
-				<img class="dividerline" src="assets/sep.png" alt="">
-				<h2>Order Online</h2>
-				<img class="dividerline" src="assets/sep.png" alt="">
-			</div>
-				<h5 class="body-text">If you experience any problems with online ordering you may have to call: (303)-316-7353</h5><br>
-				<h3 class="body-text">We suggest you order through:&nbsp;&nbsp;<a class="btn btn-danger btn-lg
-" href="https://www.ehungry.com/">EHungry.com</a></h3><br>
-				<p>
-				<h5 class="body-text">Here you can order for delivery, takeout, or even make a future order.<br>
-				For any large, or catering orders, we ask that you call us ahead of time. We have seperate/cheaper pricing for all large/catering orders!
+	<section class="parallax gallery" id="gallery" style="background-image: url(assets/banner2.jpg);">
+ 	  <div class="parallax-pattern-overlay">
 
-				</h5>
-				</p>
+		<div id="order-container" class="container">
+			<div class="text-center">
+				<h2 class="title">Order Online</h2>
+			</div>
+				<p id="white" class="body-text">If you experience any problems with online ordering you may have to call: (303)-316-7353</p><br>
+				<h3 id="white-head" class="body-text">We suggest you order through:&nbsp;&nbsp;<a id="btn" class="btn btn-danger btn-lg
+" href="https://www.ehungry.com/">EHungry.com</a></h3><br>
 				<br>
 				<br>
 			</div>
-				<div class="heading text-center">
-			<img class="dividerline" src="assets/sep.png" alt="">
-			<h2>Location</h2>
-			<img class="dividerline" src="assets/sep.png" alt="">
-			<p>We are located in the shopping center on leetsdale and holly.</p>
-			<p>Adress: 600 South Holly St.</p>
-			<p>LOOK FOR:  I <3 NY PIZZA SIGN!!</p>
-			<br>
-			
-			</section>
+		</div>	
+	</section>
+
+	<section id="location-section">
+
+		<div class="container text-center">
+
+			<div class="heading">
+				<img class="dividerline" src="assets/sep.png" alt="">
+				<h2>Location</h2>
+				<img class="dividerline" src="assets/sep.png" alt="">
+				<p>We are located in the shopping center on leetsdale and holly.</p>
+				<p>Adress: 600 South Holly St.</p>
+				<p>LOOK FOR:  I <3 NY PIZZA SIGN!!</p>
+				<br>
+				
+
+
 			<!--
 				google map info
 						-->
-				<div class="map_container">
+					<div class="map_container">
 
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3069.490135622409!2d-104.9236656!3d39.7061664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x4ef6821f369a78c3!2sNew+York+Pizzeria!5e0!3m2!1sen!2sus!4v1455917721821" width="750" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3069.490135622409!2d-104.9236656!3d39.7061664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x4ef6821f369a78c3!2sNew+York+Pizzeria!5e0!3m2!1sen!2sus!4v1455917721821" width="750" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+		
+			</div>
+		</div>
+
+	</section>				
 	<!--feedback-->
 	<section class="feedback" id="feedback">
 	<div class="container w960">
@@ -367,7 +571,6 @@
 <script src="assets/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/Modernizr.js"></script>
 <script src="assets/bootstrap.js"></script>
-<script src="assets/menustick.js"></script>
 <script src="assets/parallax.js"></script>
 <script src="assets/easing.js"></script>
 <script src="assets/wow.js"></script>
@@ -376,28 +579,12 @@
 <script src="assets/imgloaded.js"></script>
 <script src="assets/classie.js"></script>
 <script src="assets/colorfinder.js"></script>
-<script src="assets/gridscroll.js"></script>
 <script src="assets/common.js"></script>
+<script type="text/javascript" src="assets/jssor.slider.mini.js"></script>
 
-<script type="text/javascript">
-jQuery(function($) {
-$(document).ready( function() {
-  //enabling stickUp on the '.navbar-wrapper' class
-	$('.navbar-wrapper').stickUp({
-		parts: {
-		  0: 'banner',
-		  1: 'aboutus',
-		  2: 'specialties',
-		  3: 'gallery',
-		  4: 'feedback',
-		  5: 'contact'
-		},
-		itemClass: 'menuItem',
-		itemHover: 'active',
-		topMargin: 'auto'
-		});
-	});
-});
-</script>
+
+
+
+
 </body>
 </html>
